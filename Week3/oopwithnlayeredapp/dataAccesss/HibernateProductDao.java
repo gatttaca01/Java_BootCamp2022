@@ -1,16 +1,12 @@
 package oopwithnlayeredapp.dataAccesss;
 
-// product ı kullanabilmek içim import ettik.
-// 
 import oopwithnlayeredapp.entities.Product;
 
-public class JdbcProductDao { // data access object
+public class HibernateProductDao implements ProductDao {
 	public void add(Product product) {
 		// db erişim kodları buraya yazılır sql bilmek gerekir.
-		System.out.println("JDBC ile veri tabanına eklendi.");
-	
-	
+		System.out.println("HİBERNATES ile veri tabanına eklendi.");
+
 	}
-	
 
 }
